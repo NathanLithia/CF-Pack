@@ -1,0 +1,39 @@
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 3",
+            "cachedVersion": "3.2.2",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl3",
+            "version": "3.2.2"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "equals": "3.2.2",
+                    "suggests": "3.2.2",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "cachedVersion": "PLACEHOLDER-MINECRAFT-VERSION",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "PLACEHOLDER-MINECRAFT-VERSION"
+        },
+        {
+            "cachedName": "Forge",
+            "cachedRequires": [
+                {
+                    "equals": "PLACEHOLDER-MINECRAFT-VERSION",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "cachedVersion": "PLACEHOLDER-FORGE-VERSION",
+            "uid": "net.minecraftforge",
+            "version": "PLACEHOLDER-FORGE-VERSION"
+        }
+    ],
+    "formatVersion": 1
+}
